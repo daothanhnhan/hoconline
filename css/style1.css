@@ -1,0 +1,312 @@
+.khung1 {
+	border: 1px solid black;
+	padding: 5px;
+}
+.con-tro {
+	cursor: pointer;
+}
+.phien-am {
+	width: 600px;
+}
+.phien-am td {
+	border: 0;
+}
+.phien-am .dap-an {
+	background: #060;
+	padding: 5px;
+	color: #fff;
+}
+
+.menu-bai p {
+	background: #2a84c9;
+	padding: 3px;
+	margin-bottom: 3px;
+    width: 20%;
+    display: inline-block;
+}
+.menu-bai p a {
+	color: #fff;
+}
+
+.accpt {
+    background: url(/images/icons/pkk.jpg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+}
+.sairoi {
+    background: url(/images/icons/truefalse.jpg) bottom;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+}
+.dungroi {
+    background: url(/images/icons/truefalse.jpg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+}
+
+.phien-am-nghe audio {
+/*border-radius: 90px;*/
+width: 100px;
+height: 30px;
+/*margin-top: 5px;*/
+/*margin-bottom: 5px;*/
+}
+
+.phien-am-nghe audio::-webkit-media-controls-mute-button {
+display: none !important;
+}
+
+.phien-am-nghe audio::-webkit-media-controls-volume-slider {
+display: none !important;
+}
+
+.phien-am-nghe audio::-webkit-media-controls-volume-control-container.closed {
+display: none !important;
+}
+.phien-am-nghe audio::-webkit-media-controls-volume-control-container{
+display: none !important;
+}
+
+.dien-tu .dap-an-dien-tu {
+    display: inline-block;
+    background: #060;
+    padding: 3px 10px;
+    color: #fff;
+}
+.dien-tu input {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    text-align: center;
+}
+
+.cauhoi-wrap {
+    padding: 10px!important;
+}
+.clearfix {
+    zoom: 1;
+}
+.chanle {
+    overflow: hidden;
+    padding: 0 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.cauhoi.jp-22 {
+    font-weight: 400;
+    font-size: 23px;
+}
+.cauhoi {
+    display: block;
+    margin: 5px 0;
+    overflow: hidden;
+    font-weight: 700;
+    color: #103b5c;
+    font-size: 1.333em;
+}
+.jp-22 {
+    font-family: MS PMincho,MS Mincho;
+    font-size: 23px;
+    line-height: 25px!important;
+}
+
+.frame4 {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+}
+.answer, .exameQuiz, .quizBaoloi {
+    height: 20px;
+    line-height: 20px;
+    background-image: url(/images/icons/check.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    cursor: pointer;
+    color: #000;
+    /*opacity: .6;*/
+    -webkit-touch-callout: none;
+    display: block;
+    font-size: 1.333em;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 5px;
+    float: left;
+}
+.jp-22.answer {
+    font-size: 23px;
+}
+.dung {
+    background-position-y: -60px;
+}
+.sai{
+    background-position-y: -40px;
+}
+.chon {
+    background-position-y: -80px;
+}
+.slide-content {
+    padding-left: 25px;
+    display: none;
+}
+.khung-full th, .khung-listhantu tr:first-child, .khung-ngang th, .khungHanTu tr:first-child, .khungHanTu6C tr:first-child, .khungNote2C tr:first-child, .khungTuVung6C tr:first-child, .khunghantu_thugon tr:first-child {
+    background: #2076b8;
+    text-align: center;
+    font-weight: 700;
+    color: #fff!important;
+}
+.khung-base, .khung-base td, .khung-full, .khung-full td, .khung-full th, .khung-hoithoai, .khung-hoithoai td, .khung-listhantu, .khung-listhantu td, .khung-ngang, .khung-ngang td, .khungHanTu, .khungHanTu td, .khungHanTu6C, .khungHanTu6C td, .khungNote2C, .khungNote2C td, .khungNote2C th, .khungTuVung6C, .khungTuVung6C td, .khunghantu_thugon, .khunghantu_thugon td, .td_ht1, .td_ht1 td, .td_ht2, .td_ht2 td, .td_ht2 th, khung2 th {
+    border-color: #cbe1f2;
+    border-style: solid;
+}
+.khung-base td, .khung-full td, .khung-full th, .khung-hoithoai td, .khung-listhantu td, .khungHanTu td, .khungHanTu6C td, .khungNote2C td, .khungNote2C th, .khungTuVung6C td, .khunghantu_thugon td, .td_ht1 td, .td_ht2 td, .td_ht2 th {
+    border-width: 0 0 1px 1px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+.khung-listhantu tr td:nth-child(1) {
+    width: 30px;
+}
+.khung-listhantu tr td:nth-child(1) {
+    width: 30px;
+}
+.khung-listhantu tr:not(:first-child) td:nth-child(1), .khungTuVung6C tr:not(:first-child) td:nth-child(1) {
+    font-weight: 700;
+    text-align: center;
+}
+th {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center;
+}
+#ket-qua {
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+        z-index: 1;
+    background: rgba(237,243,247,.8);
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-weight: 700;
+}
+#ket-qua table td {
+    border: 0;
+}
+.ket-qua-1 {
+    top: 100px !important;
+}
+.noi-dung {
+  border: 1px solid black;
+  padding: 5px;
+}
+.dich {
+  border: 1px solid black;
+  padding: 5px;
+  clear: both;
+}
+#nut-hien-dich {
+  cursor: pointer;
+  color: #2a84c9;
+}
+.dong-dien-tu {
+  font-size: 23px;
+  line-height: 36px;
+  font-family: MS PMincho,MS Mincho;
+}
+.mau-khung {
+  border: 1px solid #2a84c9;
+    padding: 10px;
+}
+.nhom {
+  color: red;
+  font-size: 23px;
+  font-family: MS PMincho,MS Mincho;
+  font-weight: bold;
+}
+.nhom-duoi {
+  margin-top: 30px;
+}
+.nhom-text-dap-an-dich {
+  margin-top: 20px;
+}
+.nhom-text-dap-an-dich span {
+  background: #2a84c9;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: #fff !important;
+  cursor: pointer;
+}
+.noi-dung-dan-ap-dich {
+  padding: 10px;
+}
+.button {
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 10px;
+    background: #2076b8;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+#lession-cotent a.button:hover {
+    color: #fff !important;
+}
+.nhom {
+  font-size: 23px;
+  font-family: MS PMincho,MS Mincho; 
+  color: red;
+}
+.vien {
+  padding: 5px;
+  border: 1px solid #2a84c9;
+}
+
+.cauhoi.jp-22 p {
+    font-size: 23px;
+    color: #000;
+}
+
+.noi-dung-tab-phu {
+    margin-bottom: 20px;
+}
+.phien-am-nghe {
+    margin-bottom: 20px;
+}
+
+.ket-qua {
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    z-index: 1;
+    background: rgba(237,243,247,.8);
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-weight: 700;
+}
+.ket-qua table td {
+    border: 0;
+}
+
+.dich-cau-do {
+    border: 1px solid #000;
+    padding: 3px;
+    clear: both;
+    color: blue;
+}
